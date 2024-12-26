@@ -14,7 +14,7 @@
 import './style.css'
 
 
-function main() {
+const main = () => {
   // basic 
   // 1.ts 
   // console.log(age);

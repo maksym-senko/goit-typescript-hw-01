@@ -6,7 +6,7 @@ type User = {
 };
 
 
-export function createOrUpdateUser(initialValues: Partial<User>) {
+export const createOrUpdateUser = (initialValues: Partial<User>) => {
     console.log(initialValues);
 }
   
